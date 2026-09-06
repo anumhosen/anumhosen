@@ -1,174 +1,158 @@
-# Anum Hosen Shawon — Modern Developer & Researcher Portfolio
+<div align="center">
 
-A modern, high-performance portfolio website built for **Anum Hosen Shawon** (Full Stack Developer, Software Engineer, and Computational Physics Researcher at Jashore University of Science and Technology).
+  <img src="./public/anum.jpeg" alt="Anum Hosen Shawon" width="160" height="160" style="border-radius: 50%; border: 3px solid #06b6d4; object-fit: cover; box-shadow: 0 0 25px rgba(6, 182, 212, 0.4);" />
 
-- **Production Domain**: [anumhosen.vercel.app](https://anumhosen.vercel.app)
-- **Tech Stack**: React 19 (JavaScript only), Vite, Tailwind CSS, Framer Motion, React Icons, React Router DOM
-- **Architecture**: Modular, responsive, component-driven, zero TypeScript (<200 lines per file)
+  <h1>Anum Hosen Shawon</h1>
 
----
+  <p><strong>Full Stack Developer | Software Engineer | Computational Physics Researcher</strong></p>
 
-## Features
+  <p>
+    <em>Building Cross-Platform Applications, Developer Tools, Databases, and Open Source Software.</em>
+  </p>
 
-- **Dark Professional Theme**: Built with Tailwind CSS `gray` palette (`gray-950` to `gray-700`) and cyan/blue accents.
-- **Glassmorphism & Micro-animations**: Sleek backdrop-blur card surfaces, subtle hover elevation, and Framer Motion entrance animations.
-- **Developer Window Mockups**: Custom code and preview frames styled with `react-icons/vsc` (`VscChromeMinimize`, `VscChromeMaximize`, `VscChromeClose`).
-- **Full Showcase of 7 Core Projects**:
-  1. **Llama Server** — Local AI model serving platform.
-  2. **Sonic Browser** — Custom browser with productivity and scraping features.
-  3. **DataSwitch** — Multi-database management and migration tool (SQLite, MongoDB, MySQL, PostgreSQL).
-  4. **GROMACS GUI** — Graphical interface for molecular dynamics simulations.
-  5. **Al Quran App** — Offline-first cross-platform desktop application.
-  6. **Al Hadith App** — Fast indexed cross-platform desktop application.
-  7. **Alapon Chat App** — Real-time MERN stack messaging platform.
-- **Research & Scientific Computing**: Molecular dynamics simulation of *E. coli* lipid membrane using GROMACS, CHARMM-GUI, Linux, and Python analysis pipelines.
-- **Open Source Section**: GitHub profile integration, repository showcases, and local-first software philosophy.
-- **Contact Channels**: Interactive contact form with client-side feedback and direct communication links.
-- **SEO & Social Optimization**: Meta descriptions, Open Graph preview tags, Twitter cards, and `robots.txt`.
+  <p>
+    <a href="https://anumhosen.vercel.app"><img src="https://img.shields.io/badge/Portfolio-anumhosen.vercel.app-06b6d4?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+    <a href="https://www.linkedin.com/in/anumhosen"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+    <a href="mailto:anumhosen@gmail.com"><img src="https://img.shields.io/badge/Email-anumhosen%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  </p>
+
+</div>
 
 ---
 
-## Project Structure
+### 👨‍💻 About Me
 
-```
-anumhosen/
-├── public/
-│   ├── favicon.svg
-│   └── robots.txt
-├── src/
-│   ├── assets/
-│   │   └── avatar-placeholder.svg
-│   ├── components/
-│   │   ├── common/
-│   │   │   ├── Badge.jsx
-│   │   │   ├── Button.jsx
-│   │   │   ├── Footer.jsx
-│   │   │   ├── GlassCard.jsx
-│   │   │   ├── Navbar.jsx
-│   │   │   ├── SectionHeader.jsx
-│   │   │   └── TechWindow.jsx
-│   │   ├── home/
-│   │   │   ├── FeaturedTeaser.jsx
-│   │   │   ├── HeroSection.jsx
-│   │   │   └── QuickStats.jsx
-│   │   ├── about/
-│   │   │   ├── BioCard.jsx
-│   │   │   ├── EducationCard.jsx
-│   │   │   └── StoryTimeline.jsx
-│   │   ├── skills/
-│   │   │   ├── SkillCategoryCard.jsx
-│   │   │   └── SkillItem.jsx
-│   │   ├── projects/
-│   │   │   ├── ProjectCard.jsx
-│   │   │   └── ProjectFilter.jsx
-│   │   ├── research/
-│   │   │   ├── ResearchHero.jsx
-│   │   │   └── ResearchTimeline.jsx
-│   │   ├── opensource/
-│   │   │   ├── GitHubProfileCard.jsx
-│   │   │   ├── OpenSourceStats.jsx
-│   │   │   └── RepoCard.jsx
-│   │   └── contact/
-│   │       ├── ContactDetails.jsx
-│   │       └── ContactForm.jsx
-│   ├── data/
-│   │   ├── openSourceData.js
-│   │   ├── personalInfo.js
-│   │   ├── projectsData.js
-│   │   ├── researchData.js
-│   │   └── skillsData.js
-│   ├── hooks/
-│   │   └── useActiveNav.js
-│   ├── layouts/
-│   │   └── RootLayout.jsx
-│   ├── pages/
-│   │   ├── AboutPage.jsx
-│   │   ├── ContactPage.jsx
-│   │   ├── HomePage.jsx
-│   │   ├── NotFoundPage.jsx
-│   │   ├── OpenSourcePage.jsx
-│   │   ├── ProjectsPage.jsx
-│   │   ├── ResearchPage.jsx
-│   │   └── SkillsPage.jsx
-│   ├── routes/
-│   │   └── AppRoutes.jsx
-│   ├── styles/
-│   │   └── index.css
-│   ├── App.jsx
-│   ├── index.css
-│   └── main.jsx
-├── DEPLOYMENT.md
-├── index.html
-├── package.json
-├── postcss.config.js
-├── README.md
-├── tailwind.config.js
-├── vercel.json
-└── vite.config.js
-```
+- 🎓 **Final-Year Physics Student** at **Jashore University of Science and Technology (JUST)**, Bangladesh.
+- 🔬 **Computational Biophysics**: Conducting Molecular Dynamics simulations of *E. coli* lipid membranes using **GROMACS**, **CHARMM-GUI**, and **Python**.
+- 🖥️ **Desktop & Systems Engineering**: Crafting low-latency, native desktop software with **Tauri (Rust)** and **Electron**.
+- 🌐 **Full-Stack Development**: Building modular, component-driven web platforms using **React**, **Node.js**, **Tailwind CSS**, and modern REST APIs.
+- 🗄️ **Multi-Engine Databases**: Designing migration and synchronization tools spanning **SQLite**, **MongoDB**, **PostgreSQL**, and **MySQL**.
+- 💡 **Open Source Philosophy**: Strong advocate for transparent, local-first, and privacy-preserving developer tooling.
 
 ---
 
-## Commands for User Execution
+### 🛠️ Technical Arsenal
 
-### 1. Installation Commands
-Install all dependencies including React Router, Framer Motion, React Icons, Tailwind CSS, PostCSS, and Autoprefixer:
+<div align="center">
+
+| Domain | Technologies & Tools |
+| :--- | :--- |
+| **Programming Languages** | `JavaScript (ES6+)` `Python` `C` `C++` `SQL` `HTML5` `CSS3` |
+| **Frontend Frameworks** | `React` `Tailwind CSS` `Vite` `Framer Motion` `React Router` |
+| **Desktop Engineering** | `Tauri (Rust + Web)` `Electron` `Chromium Runtime` |
+| **Backend & APIs** | `Node.js` `Express.js` `RESTful APIs` `WebSockets` |
+| **Databases & Storage** | `SQLite` `MongoDB` `PostgreSQL` `MySQL` |
+| **Scientific Computing** | `GROMACS` `CHARMM-GUI` `MDAnalysis` `NumPy` `Matplotlib` |
+| **DevOps & Environment** | `Git` `GitHub` `GitHub Actions` `Linux (CLI/SysAdmin)` `Vercel` |
+
+</div>
+
+---
+
+### 🚀 Featured Projects
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/anumhosen/dataswitch">🔄 DataSwitch</a></h4>
+      <p>Universal cross-database manager, schema migrator, and synchronization pipeline supporting <strong>SQLite</strong>, <strong>MongoDB</strong>, <strong>PostgreSQL</strong>, and <strong>MySQL</strong>.</p>
+      <p><code>Tauri</code> <code>Rust</code> <code>React</code> <code>SQLite</code> <code>MongoDB</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/anumhosen/llama-server">🦙 Llama Server</a></h4>
+      <p>High-performance local AI model serving platform for hosting and querying LLMs with zero cloud dependency and custom HTTP endpoints.</p>
+      <p><code>Python</code> <code>C++</code> <code>Tauri</code> <code>React</code> <code>Local AI</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/anumhosen/sonic-browser">⚡ Sonic Browser</a></h4>
+      <p>Specialized desktop web browser built with productivity workflows, ad filtering, and automated developer scraping utilities.</p>
+      <p><code>Electron</code> <code>JavaScript</code> <code>Node.js</code> <code>Chromium</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/anumhosen/gromacs-gui">🧪 GROMACS GUI</a></h4>
+      <p>Graphical desktop wrapper for orchestrating molecular dynamics simulations, energy minimization, and trajectory monitoring.</p>
+      <p><code>Python</code> <code>Electron</code> <code>GROMACS</code> <code>Scientific Computing</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/anumhosen/al-quran-app">📖 Al Quran App</a></h4>
+      <p>Fast, offline-first cross-platform desktop application with Ayah bookmarking, translations, and audio recitation playback.</p>
+      <p><code>Tauri</code> <code>React</code> <code>SQLite</code> <code>Tailwind</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/anumhosen/alapon-chat">💬 Alapon Chat App</a></h4>
+      <p>Real-time messaging platform with room management, instant message delivery via WebSockets, and encrypted user authentication.</p>
+      <p><code>React</code> <code>Node.js</code> <code>Express</code> <code>MongoDB</code> <code>Socket.io</code></p>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 🔬 Research & Scientific Computing
+
+> **Molecular Dynamics Simulation of *Escherichia coli* Membrane Systems**
+> 
+> *Department of Physics, Jashore University of Science and Technology*
+
+- **Objective**: Simulating heterogeneous lipid bilayers representing the *E. coli* membrane to study structural stability, bilayer thickness, and lipid-protein interactions.
+- **Workflow**: System assembly (**CHARMM-GUI**), solvation & energy minimization, NVT/NPT equilibration (310 K, 1 bar), and unrestrained production MD runs (**GROMACS** on Linux HPC).
+- **Analysis**: Calculating area per lipid (APL), order parameters ($S_{CD}$), and diffusion coefficients using **Python (MDAnalysis, NumPy)**.
+
+---
+
+### 📊 GitHub Activity & Metrics
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=anumhosen&show_icons=true&theme=tokyonight&hide_border=true&bg_color=030712&title_color=22d3ee&icon_color=38bdf8&text_color=9ca3af" alt="Anum's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anumhosen&layout=compact&theme=tokyonight&hide_border=true&bg_color=030712&title_color=22d3ee&text_color=9ca3af" alt="Top Languages" />
+</div>
+
+---
+
+### 📫 Connect With Me
+
+- 🌐 **Portfolio Website**: [anumhosen.vercel.app](https://anumhosen.vercel.app)
+- 💼 **LinkedIn**: [linkedin.com/in/anumhosen](https://www.linkedin.com/in/anumhosen)
+- 📧 **Email**: [anumhosen@gmail.com](mailto:anumhosen@gmail.com)
+- 🐙 **GitHub**: [@anumhosen](https://github.com/anumhosen)
+
+---
+
+<details>
+<summary>🛠️ <strong>Portfolio Repository Setup & Development Guide</strong></summary>
+
+<br />
+
+This repository also houses the source code for the live portfolio website at **anumhosen.vercel.app**.
+
+#### Install Dependencies
 ```bash
 npm install
 ```
 
-### 2. Development Commands
-Launch the Vite local development server with Hot Module Replacement (HMR):
+#### Run Local Development Server
 ```bash
 npm run dev
 ```
-Open your browser at `http://localhost:5173`.
 
-### 3. Build & Validation Commands
-Create an optimized production bundle in the `dist` directory:
+#### Production Build
 ```bash
 npm run build
 ```
 
-Preview the production build locally:
-```bash
-npm run preview
-```
-
-### 4. Vercel Deployment Commands
-
-#### Install Vercel CLI (Global)
+#### Deploy to Vercel
 ```bash
 npm install -g vercel
-```
-
-#### Login to Vercel
-```bash
 vercel login
-```
-
-#### Deploy Preview
-```bash
-vercel
-```
-
-#### Deploy to Production
-```bash
 vercel --prod
 ```
 
----
+</details>
 
-## TODO: Files for Review
-
-In accordance with file preservation rules, the following pre-existing Vite boilerplate files were left intact and may be reviewed or manually removed if desired:
-
-1. `src/App.css` — Default Vite starter CSS file. Replaced by Tailwind CSS in `src/styles/index.css`.
-2. `src/assets/hero.png` — Default Vite starter hero image.
-3. `src/assets/react.svg` — Default React logo starter asset.
-4. `src/assets/vite.svg` — Default Vite logo starter asset.
-
----
-
-## License & Attribution
-© Anum Hosen Shawon. Designed and developed with React, Vite, and Tailwind CSS.
+<div align="center">
+  <sub>© Anum Hosen Shawon. Built with passion, physics, and code.</sub>
+</div>
