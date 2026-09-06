@@ -1,5 +1,4 @@
-import React from 'react';
-import { FaBook, FaStar, FaCodeBranch, FaExternalLinkAlt } from 'react-icons/fa';
+import { FaBook, FaStar, FaCodeBranch, FaExternalLinkAlt, FaClock } from 'react-icons/fa';
 import GlassCard from '../common/GlassCard';
 import Badge from '../common/Badge';
 
@@ -44,21 +43,29 @@ export default function RepoCard({ repo }) {
         </div>
       </div>
 
-      <div className="flex items-center justify-between pt-3 border-t border-gray-800/80 text-xs font-mono text-gray-400">
-        <span className="flex items-center gap-1 text-cyan-400">
-          <span className="w-2 h-2 rounded-full bg-cyan-400"></span>
-          {repo.language}
-        </span>
+      <div className="pt-3 border-t border-gray-850 space-y-2">
+        <div className="flex items-center justify-between text-xs font-mono text-gray-400">
+          <span className="flex items-center gap-1.5 text-cyan-400">
+            <span className="w-2 h-2 rounded-full bg-cyan-400"></span>
+            {repo.language}
+          </span>
 
-        <div className="flex items-center gap-3">
-          <span className="flex items-center gap-1 hover:text-white transition">
-            <FaStar className="w-3 h-3 text-amber-400" />
-            {repo.stars}
-          </span>
-          <span className="flex items-center gap-1 hover:text-white transition">
-            <FaCodeBranch className="w-3 h-3 text-cyan-400" />
-            {repo.forks}
-          </span>
+          <div className="flex items-center gap-3">
+            <span className="flex items-center gap-1 hover:text-white transition">
+              <FaStar className="w-3 h-3 text-amber-400" />
+              {repo.stars}
+            </span>
+            <span className="flex items-center gap-1 hover:text-white transition">
+              <FaCodeBranch className="w-3 h-3 text-cyan-400" />
+              {repo.forks}
+            </span>
+          </div>
+        </div>
+
+        {/* Last Updated */}
+        <div className="flex items-center gap-1 text-[11px] text-gray-500 font-mono">
+          <FaClock className="w-2.5 h-2.5 text-gray-600" />
+          <span>{repo.lastUpdated}</span>
         </div>
       </div>
     </GlassCard>

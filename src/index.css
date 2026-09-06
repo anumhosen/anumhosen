@@ -1,1 +1,2 @@
+/* TODO_REMOVE: Candidate for manual removal if desired, since src/main.jsx now directly imports src/styles/index.css */
 @import './styles/index.css';

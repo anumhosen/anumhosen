@@ -1,8 +1,8 @@
-import React from 'react';
 import SectionHeader from '../components/common/SectionHeader';
 import GitHubProfileCard from '../components/opensource/GitHubProfileCard';
 import OpenSourceStats from '../components/opensource/OpenSourceStats';
 import RepoCard from '../components/opensource/RepoCard';
+import ContributionGraph from '../components/opensource/ContributionGraph';
 import { openSourceData } from '../data/openSourceData';
 
 export default function OpenSourcePage() {
@@ -17,11 +17,14 @@ export default function OpenSourcePage() {
       {/* GitHub Profile Card */}
       <GitHubProfileCard />
 
+      {/* Contribution Activity Graph */}
+      <ContributionGraph />
+
       {/* Repository Showcase */}
       <div className="space-y-6">
         <div className="flex items-center justify-between">
           <h3 className="text-xl font-bold text-white tracking-tight">
-            Featured Repositories
+            Pinned Repositories
           </h3>
           <span className="text-xs font-mono text-cyan-400">
             Open Source Projects
@@ -36,7 +39,7 @@ export default function OpenSourcePage() {
       </div>
 
       {/* Philosophy & Principles */}
-      <div className="pt-6">
+      <div className="pt-2">
         <OpenSourceStats />
       </div>
     </div>

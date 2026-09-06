@@ -1,4 +1,3 @@
-import React from 'react';
 import { 
   FaLaptopCode, 
   FaServer, 
@@ -43,7 +42,7 @@ export default function SkillCategoryCard({ category }) {
           {category.description}
         </p>
 
-        <div className="space-y-2">
+        <div className="space-y-2.5">
           {category.skills.map((skill) => (
             <SkillItem key={skill.name} skill={skill} />
           ))}

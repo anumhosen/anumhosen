@@ -1,65 +1,63 @@
 export const skillCategories = [
   {
     id: "frontend",
-    name: "Frontend Development",
-    description: "Modern, dynamic interfaces with component-driven architecture",
+    name: "Frontend Architecture",
+    description: "Component-driven, responsive user interfaces with reactive state management",
     skills: [
-      { name: "React", level: "Advanced", tag: "Library" },
-      { name: "JavaScript", level: "Advanced", tag: "ES6+" },
-      { name: "HTML5", level: "Expert", tag: "Markup" },
-      { name: "CSS3", level: "Advanced", tag: "Styling" },
-      { name: "Tailwind", level: "Advanced", tag: "Utility CSS" },
-      { name: "Vite", level: "Advanced", tag: "Build Tool" }
+      { name: "React", level: "Advanced", proficiency: 92, tag: "UI Core" },
+      { name: "JavaScript", level: "Advanced", proficiency: 90, tag: "ES6+ / Async" },
+      { name: "Tailwind", level: "Advanced", proficiency: 94, tag: "Modern Styling" },
+      { name: "Vite", level: "Advanced", proficiency: 88, tag: "Tooling & Bundling" }
     ]
   },
   {
     id: "backend",
     name: "Backend & APIs",
-    description: "Scalable server applications, REST services and realtime pipelines",
+    description: "High-throughput server runtimes, REST architectures, and WebSocket pipelines",
     skills: [
-      { name: "Node.js", level: "Advanced", tag: "Runtime" },
-      { name: "Express.js", level: "Advanced", tag: "Framework" }
+      { name: "Node.js", level: "Advanced", proficiency: 88, tag: "Async Runtime" },
+      { name: "Express", level: "Advanced", proficiency: 86, tag: "REST Endpoints" }
     ]
   },
   {
     id: "database",
     name: "Databases & Storage",
-    description: "Relational, document, and embedded multi-database management",
+    description: "Embedded SQL, distributed document stores, and relational data modeling",
     skills: [
-      { name: "SQLite", level: "Advanced", tag: "Embedded" },
-      { name: "MongoDB", level: "Advanced", tag: "NoSQL" },
-      { name: "PostgreSQL", level: "Learning", tag: "Relational" }
+      { name: "SQLite", level: "Advanced", proficiency: 92, tag: "Embedded Index" },
+      { name: "MongoDB", level: "Advanced", proficiency: 85, tag: "Document Store" },
+      { name: "PostgreSQL", level: "Learning", proficiency: 70, tag: "Relational Engine" }
     ]
   },
   {
     id: "desktop",
     name: "Desktop Applications",
-    description: "Cross-platform desktop tools with low-memory native bindings",
+    description: "Cross-platform native software with low-memory system footprints",
     skills: [
-      { name: "Electron", level: "Advanced", tag: "Cross-Platform" },
-      { name: "Tauri", level: "Proficient", tag: "Rust + Web" }
+      { name: "Tauri", level: "Advanced", proficiency: 88, tag: "Rust + Web Core" },
+      { name: "Electron", level: "Advanced", proficiency: 85, tag: "Chromium Native" }
     ]
   },
   {
     id: "programming",
     name: "Programming Languages",
-    description: "Systems programming, scientific computation, and modern scripting",
+    description: "Systems programming, mathematical modeling, and scripting automation",
     skills: [
-      { name: "C", level: "Proficient", tag: "Systems" },
-      { name: "C++", level: "Proficient", tag: "Systems / MD" },
-      { name: "Python", level: "Advanced", tag: "Data / Automation" },
-      { name: "JavaScript", level: "Advanced", tag: "Web / Desktop" }
+      { name: "Python", level: "Advanced", proficiency: 90, tag: "Analysis / AI" },
+      { name: "C++", level: "Proficient", proficiency: 82, tag: "Systems / MD" },
+      { name: "C", level: "Proficient", proficiency: 80, tag: "Low-Level Memory" },
+      { name: "JavaScript", level: "Advanced", proficiency: 92, tag: "Full-Stack" }
     ]
   },
   {
     id: "tools",
-    name: "Tools & DevOps",
-    description: "Version control, CI/CD automation, and Linux environments",
+    name: "Tools & Environments",
+    description: "Automated CI/CD pipelines, version control, and Unix shell environments",
     skills: [
-      { name: "Git", level: "Advanced", tag: "VCS" },
-      { name: "GitHub", level: "Advanced", tag: "Collaboration" },
-      { name: "GitHub Actions", level: "Proficient", tag: "CI / CD" },
-      { name: "Linux", level: "Advanced", tag: "SysAdmin / CLI" }
+      { name: "Linux", level: "Advanced", proficiency: 90, tag: "HPC / CLI" },
+      { name: "Git", level: "Advanced", proficiency: 92, tag: "Version Control" },
+      { name: "GitHub", level: "Advanced", proficiency: 90, tag: "Code Collaboration" },
+      { name: "GitHub Actions", level: "Proficient", proficiency: 80, tag: "CI/CD Pipelines" }
     ]
   }
 ];

@@ -1,8 +1,8 @@
 export const personalInfo = {
   name: "Anum Hosen Shawon",
   shortName: "Anum Hosen",
-  headline: "Full Stack Developer | Software Engineer",
-  tagline: "Building Cross-Platform Applications, Developer Tools, Databases, and Open Source Software.",
+  headline: "Full Stack & Desktop Application Developer",
+  tagline: "Building Cross-Platform Software, Database Tools, AI Utilities, and Open Source Applications.",
   domain: "anumhosen.vercel.app",
   photoUrl: "/anum.jpeg",
   email: "anumhosen@gmail.com",
@@ -13,24 +13,39 @@ export const personalInfo = {
   githubUsername: "anumhosen",
   githubUrl: "https://github.com/anumhosen",
   linkedinUrl: "https://www.linkedin.com/in/anumhosen",
-  resumeUrl: "#contact", // or link to downloadable file
+  resumeUrl: "/resume",
+  typingRoles: [
+    "Cross-Platform Desktop Apps",
+    "Full-Stack Web Architectures",
+    "Multi-Database Systems",
+    "Local AI Utilities",
+    "Computational Biophysics"
+  ],
   heroStack: [
     "React",
     "Node.js",
     "SQLite",
     "MongoDB",
     "Electron",
-    "Tauri"
+    "Tauri",
+    "Python",
+    "C++"
   ],
   bioParagraphs: [
-    "I am a final-year Physics student at Jashore University of Science and Technology with a relentless passion for software engineering, desktop systems, and scientific computation.",
-    "My journey bridges the analytical rigor of physics with high-performance software development. I specialize in building cross-platform desktop applications using Tauri and Electron, full-stack web platforms with React and Node.js, and multi-engine database tools.",
-    "In scientific computing, I have hands-on experience orchestrating Molecular Dynamics simulations with GROMACS, CHARMM-GUI, and Python. An active open-source advocate, I love building developer utilities that solve real-world system and data engineering challenges."
+    "I am a final-year Physics student at Jashore University of Science and Technology, operating at the intersection of computational physics, native systems programming, and full-stack web engineering.",
+    "My journey began with differential equations and mathematical modeling in physics, evolving into building high-throughput desktop software with Tauri (Rust) and Electron, robust backends with Node.js, and multi-engine database migrators.",
+    "In scientific research, I execute and analyze all-atom Molecular Dynamics simulations of bacterial membranes using GROMACS and Python. In software development, I build privacy-first, local-first developer tools designed to run autonomously on user hardware."
   ],
   stats: [
-    { label: "Core Projects", value: "7+" },
-    { label: "Research Focus", value: "Bio-MD" },
-    { label: "Technologies", value: "15+" },
-    { label: "Open Source", value: "Active" }
+    { label: "Major Projects", value: "7+" },
+    { label: "Core Stack", value: "React + Node.js" },
+    { label: "Specialization", value: "Desktop Apps" },
+    { label: "Ecosystem", value: "Open Source" }
+  ],
+  availableFor: [
+    "Internships",
+    "Trainee Roles",
+    "Junior Developer Positions",
+    "Open Source Collaboration"
   ]
 };

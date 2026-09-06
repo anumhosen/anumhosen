@@ -16,6 +16,7 @@ export const openSourceData = {
       language: "Rust / JavaScript",
       stars: 48,
       forks: 12,
+      lastUpdated: "Updated this week",
       topics: ["tauri", "database-migration", "sqlite", "mongodb", "postgresql"],
       url: "https://github.com/anumhosen/dataswitch"
     },
@@ -25,6 +26,7 @@ export const openSourceData = {
       language: "Python / C++",
       stars: 35,
       forks: 9,
+      lastUpdated: "Updated this week",
       topics: ["llm", "local-ai", "python", "tauri", "inference"],
       url: "https://github.com/anumhosen/llama-server"
     },
@@ -34,6 +36,7 @@ export const openSourceData = {
       language: "JavaScript / Electron",
       stars: 26,
       forks: 6,
+      lastUpdated: "Updated 2 weeks ago",
       topics: ["electron", "browser", "productivity", "automation"],
       url: "https://github.com/anumhosen/sonic-browser"
     },
@@ -43,6 +46,7 @@ export const openSourceData = {
       language: "Python / Electron",
       stars: 19,
       forks: 4,
+      lastUpdated: "Updated last month",
       topics: ["gromacs", "molecular-dynamics", "scientific-computing"],
       url: "https://github.com/anumhosen/gromacs-gui"
     }
